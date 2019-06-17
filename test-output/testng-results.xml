@@ -2,20 +2,20 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-06-17T10:49:35Z" name="example suite 1" finished-at="2019-06-17T10:53:05Z" duration-ms="210330">
+  <suite started-at="2019-06-17T12:05:24Z" name="example suite 1" finished-at="2019-06-17T12:06:15Z" duration-ms="51296">
     <groups>
     </groups>
-    <test started-at="2019-06-17T10:49:35Z" name="Regression suite 1" finished-at="2019-06-17T10:53:05Z" duration-ms="210330">
+    <test started-at="2019-06-17T12:05:24Z" name="Regression suite 1" finished-at="2019-06-17T12:06:15Z" duration-ms="51296">
       <class name="kz.beeline.test.testcases.RegistrationTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@6193932a]" started-at="2019-06-17T16:49:35Z" name="beforeTest" finished-at="2019-06-17T16:50:28Z" duration-ms="52752" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@7a52f2a2]" started-at="2019-06-17T18:05:24Z" name="beforeTest" finished-at="2019-06-17T18:06:02Z" duration-ms="37465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="test()[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@6193932a]" started-at="2019-06-17T16:50:29Z" name="test" finished-at="2019-06-17T16:52:59Z" duration-ms="150252" status="PASS">
+        <test-method signature="test()[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@7a52f2a2]" started-at="2019-06-17T18:06:02Z" name="test" finished-at="2019-06-17T18:06:12Z" duration-ms="10264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@6193932a]" started-at="2019-06-17T16:52:59Z" name="afterTest" finished-at="2019-06-17T16:53:05Z" duration-ms="6357" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@7a52f2a2]" started-at="2019-06-17T18:06:12Z" name="afterTest" finished-at="2019-06-17T18:06:15Z" duration-ms="3506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

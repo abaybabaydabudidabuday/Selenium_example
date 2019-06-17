@@ -6,6 +6,7 @@
       <class name="kz.beeline.test.testcases.RegistrationTest">
         <methods>
           <include name="beforeTest"/>
+          <include name="afterTest"/>
           <include name="test"/>
         </methods>
       </class> <!-- kz.beeline.test.testcases.RegistrationTest -->
