@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jcommander-1.27">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/jcommander-1.27.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng-6.8.8.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng-plugin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

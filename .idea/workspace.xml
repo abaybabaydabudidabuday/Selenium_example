@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6156c29b-1af4-4561-87bd-8cea43525283" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BrokenLinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BrokenLinks2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jcommander_1_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kz/beeline/test/interfaces/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kz/beeline/test/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kz/beeline/test/pages/LoginMobilePasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kz/beeline/test/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kz/beeline/test/testcases/RegistrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kz/beeline/test/utilities/JavaUtilResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hehe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hehe.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/hehe/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hehe/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -21,14 +29,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="210">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/pages/LoginMobilePasswordPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -36,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BrokenLinks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="49" />
+            <state relative-caret-position="315">
+              <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,10 +75,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BrokenLinks2.java">
+        <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="180">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/testcases/RegistrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/utilities/JavaUtilResources.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/interfaces/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,6 +147,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -69,15 +158,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/BrokenLinks.java" />
         <option value="$PROJECT_DIR$/src/BrokenLinks2.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/pages/LoginMobilePasswordPage.java" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/RegistrationTest.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/testcases/RegistrationTest.java" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/utilities/UtilResources.kt" />
+        <option value="$PROJECT_DIR$/src/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/utilities/JavaUtilResources.java" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/interfaces/TestBase.java" />
+        <option value="$PROJECT_DIR$/config.properties" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
-    <option name="y" value="112" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="60" />
+    <option name="y" value="36" />
     <option name="width" value="1161" />
     <option name="height" value="573" />
   </component>
@@ -87,7 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,30 +202,65 @@
             </path>
             <path>
               <item name="hehe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="hehe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hehe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hehe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hehe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hehe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hehe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hehe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hehe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hehe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/selenium-java-3.6.0/client-combined-3.6.0.jar!/" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/plugins/testng/lib/testng-plugin.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -140,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BrokenLinks2">
+  <component name="RunManager" selected="TestNG./home/yerkhat96/IdeaProjects/hehe/testng.xml">
     <configuration name="BrokenLinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BrokenLinks" />
       <module name="hehe" />
@@ -162,11 +297,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hehe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kz.beeline.test.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kz.beeline.test.testcases" />
+      <option name="MAIN_CLASS_NAME" value="kz.beeline.test.testcases.RegistrationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hehe" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BrokenLinks" />
+      <item itemvalue="Application.BrokenLinks2" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="TestNG./home/yerkhat96/IdeaProjects/hehe/testng.xml" />
+      <item itemvalue="TestNG.RegistrationTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BrokenLinks2" />
+        <item itemvalue="TestNG./home/yerkhat96/IdeaProjects/hehe/testng.xml" />
+        <item itemvalue="TestNG.RegistrationTest" />
         <item itemvalue="Application.BrokenLinks" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BrokenLinks2" />
       </list>
     </recent_temporary>
   </component>
@@ -183,16 +362,52 @@
       <workItem from="1560154502971" duration="3707000" />
       <workItem from="1560158548994" duration="5711000" />
       <workItem from="1560235221297" duration="3715000" />
+      <workItem from="1560347037138" duration="1000000" />
+      <workItem from="1560761154939" duration="5929000" />
+      <workItem from="1560767548395" duration="1822000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.17 at 16h 01m 30s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.17 at 16h 10m 08s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.17 at 16h 21m 39s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.17 at 16h 24m 16s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.17 at 16h 45m 17s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.17 at 16h 46m 10s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.17 at 16h 46m 36s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.17 at 16h 47m 12s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.17 at 16h 48m 25s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.17 at 16h 53m 07s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13133000" />
+    <option name="totallyTimeSpent" value="21884000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="143" y="112" width="1161" height="573" extended-state="0" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32107624" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32482043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -201,7 +416,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.067567565" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37459284" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -221,10 +436,16 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.329148" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hehe$RegistrationTest.ic" NAME="RegistrationTest Coverage Results" MODIFIED="1560763506992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>kz.beeline.test.testcases.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/Downloads/selenium-java-3.6.0/client-combined-3.6.0-sources.jar!/org/openqa/selenium/WebDriver.java">
@@ -237,24 +458,104 @@
     <entry file="file://$PROJECT_DIR$/src/BrokenLinks2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BrokenLinks.java">
+    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="49" />
+        <state relative-caret-position="75">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/pages/LoginMobilePasswordPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BrokenLinks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/utilities/UtilResources.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/utilities/JavaUtilResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/interfaces/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="210">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/testcases/RegistrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -278,6 +579,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -300,6 +602,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -323,6 +626,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>jcommander-1.27</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

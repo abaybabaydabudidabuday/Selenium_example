@@ -108,5 +108,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="jcommander-1.27" level="project" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-17T10:49:35Z" name="example suite 1" finished-at="2019-06-17T10:53:05Z" duration-ms="210330">
+    <groups>
+    </groups>
+    <test started-at="2019-06-17T10:49:35Z" name="Regression suite 1" finished-at="2019-06-17T10:53:05Z" duration-ms="210330">
+      <class name="kz.beeline.test.testcases.RegistrationTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@6193932a]" started-at="2019-06-17T16:49:35Z" name="beforeTest" finished-at="2019-06-17T16:50:28Z" duration-ms="52752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="test()[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@6193932a]" started-at="2019-06-17T16:50:29Z" name="test" finished-at="2019-06-17T16:52:59Z" duration-ms="150252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@6193932a]" started-at="2019-06-17T16:52:59Z" name="afterTest" finished-at="2019-06-17T16:53:05Z" duration-ms="6357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- kz.beeline.test.testcases.RegistrationTest -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- example suite 1 -->
+</testng-results>
