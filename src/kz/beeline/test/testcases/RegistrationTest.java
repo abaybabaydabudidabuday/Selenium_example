@@ -1,5 +1,6 @@
 package kz.beeline.test.testcases;
 
+import kz.beeline.test.dataproviders.TestDataProvider;
 import kz.beeline.test.interfaces.TestBase;
 import kz.beeline.test.pages.HomePage;
 import kz.beeline.test.pages.LoginMobilePasswordPage;
@@ -12,8 +13,9 @@ import static kz.beeline.test.utilities.URLConst.*;
 public class RegistrationTest extends TestBase {
 
 
-    @Test
-    public void test(){
+    @Test(priority = 1,dataProvider = "LoginDataProvider", dataProviderClass = TestDataProvider.class, groups = "logintests")
+    public void test(String number, String password){
+        System.out.println(number);
         Assert.assertEquals(driver.getCurrentUrl(), HOME_PAGE_EXPECTED_URL);
         HomePage homePage = new HomePage(driver);
         homePage.clickLogin();
@@ -23,7 +25,8 @@ public class RegistrationTest extends TestBase {
         Assert.assertEquals(driver.getCurrentUrl(),LOGIN_MOBILE_PASSWORD_PAGE_EXPECTED_URL);
         LoginMobilePasswordPage mobilePasswordPage = new LoginMobilePasswordPage(driver);
         //todo: here should impl data driven fmwk
-        mobilePasswordPage.setLoginNumber("87086441271");
+        mobilePasswordPage.setLoginNumber(number);
         mobilePasswordPage.clickSendingPasswordBtn();
+
     }
 }
