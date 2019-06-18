@@ -1,54 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="0" failed="1" skipped="0">
+<testng-results total="6" passed="0" failed="0" skipped="6">
   <reporter-output>
+    <line>
+      <![CDATA[test --- Started]]>
+    </line>
+    <line>
+      <![CDATA[test --- Started]]>
+    </line>
+    <line>
+      <![CDATA[test --- Started]]>
+    </line>
+    <line>
+      <![CDATA[test --- Started]]>
+    </line>
+    <line>
+      <![CDATA[test --- Started]]>
+    </line>
+    <line>
+      <![CDATA[test --- Started]]>
+    </line>
+    <line>
+      <![CDATA[test --- Started]]>
+    </line>
+    <line>
+      <![CDATA[test --- Started]]>
+    </line>
+    <line>
+      <![CDATA[test --- Started]]>
+    </line>
+    <line>
+      <![CDATA[test --- Started]]>
+    </line>
+    <line>
+      <![CDATA[test --- Started]]>
+    </line>
+    <line>
+      <![CDATA[test --- Started]]>
+    </line>
   </reporter-output>
-  <suite started-at="2019-06-18T03:44:03Z" name="example suite 1" finished-at="2019-06-18T03:44:36Z" duration-ms="32537">
+  <suite started-at="2019-06-18T08:03:14Z" name="Beeline.kz suite 1" finished-at="2019-06-18T08:04:32Z" duration-ms="78849">
     <groups>
-      <group name="logintests">
-        <method signature="RegistrationTest.test(java.lang.String, java.lang.String)[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@7ea37dbf]" name="test" class="kz.beeline.test.testcases.RegistrationTest"/>
-      </group> <!-- logintests -->
     </groups>
-    <test started-at="2019-06-18T03:44:03Z" name="Regression suite 1" finished-at="2019-06-18T03:44:36Z" duration-ms="32537">
+    <test started-at="2019-06-18T08:03:14Z" name="Registration ChromeTest" finished-at="2019-06-18T08:03:20Z" duration-ms="6205">
       <class name="kz.beeline.test.testcases.RegistrationTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@7ea37dbf]" started-at="2019-06-18T09:44:03Z" name="beforeTest" finished-at="2019-06-18T09:44:34Z" duration-ms="30258" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@1d76aeea]" started-at="2019-06-18T14:03:14Z" name="beforeTest" finished-at="2019-06-18T14:03:14Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: /home/yerkhat96/IdeaProjects/hehe/nullchromedriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /home/yerkhat96/IdeaProjects/hehe/nullchromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at kz.beeline.test.interfaces.TestBase.beforeTest(TestBase.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@7ea37dbf]" started-at="2019-06-18T09:44:34Z" name="test" data-provider="LoginDataProvider" finished-at="2019-06-18T09:44:34Z" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:149)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
-	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@1d76aeea]" started-at="2019-06-18T14:03:20Z" name="test" data-provider="LoginDataProvider" finished-at="2019-06-18T14:03:20Z" duration-ms="15" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[87086441271]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@7ea37dbf]" started-at="2019-06-18T09:44:34Z" name="afterTest" finished-at="2019-06-18T09:44:36Z" duration-ms="2217" status="PASS">
+        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@1d76aeea]" started-at="2019-06-18T14:03:20Z" name="test" data-provider="LoginDataProvider" finished-at="2019-06-18T14:03:20Z" duration-ms="3" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ibrayevabay1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@1d76aeea]" started-at="2019-06-18T14:03:20Z" name="test" data-provider="LoginDataProvider" finished-at="2019-06-18T14:03:20Z" duration-ms="2" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abay_babay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@1d76aeea]" started-at="2019-06-18T14:03:20Z" name="afterTest" finished-at="2019-06-18T14:03:20Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- kz.beeline.test.testcases.RegistrationTest -->
-    </test> <!-- Regression suite 1 -->
-  </suite> <!-- example suite 1 -->
+    </test> <!-- Registration ChromeTest -->
+    <test started-at="2019-06-18T08:03:14Z" name="Registration FirefoxTest" finished-at="2019-06-18T08:04:32Z" duration-ms="78849">
+      <class name="kz.beeline.test.testcases.RegistrationTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@147ed70f]" started-at="2019-06-18T14:03:14Z" name="beforeTest" finished-at="2019-06-18T14:03:14Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[connection refused
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:26.402Z'
+System info: host: 'yerkhat-lenovo-g50', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-39-generic', java.version: '10.0.2'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: connection refused
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:26.402Z'
+System info: host: 'yerkhat-lenovo-g50', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-39-generic', java.version: '10.0.2'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:140)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+	at kz.beeline.test.interfaces.TestBase.beforeTest(TestBase.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@147ed70f]" started-at="2019-06-18T14:04:32Z" name="test" data-provider="LoginDataProvider" finished-at="2019-06-18T14:04:32Z" duration-ms="2" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[87086441271]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@147ed70f]" started-at="2019-06-18T14:04:32Z" name="test" data-provider="LoginDataProvider" finished-at="2019-06-18T14:04:32Z" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ibrayevabay1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@147ed70f]" started-at="2019-06-18T14:04:32Z" name="test" data-provider="LoginDataProvider" finished-at="2019-06-18T14:04:32Z" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abay_babay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:kz.beeline.test.testcases.RegistrationTest@147ed70f]" started-at="2019-06-18T14:04:32Z" name="afterTest" finished-at="2019-06-18T14:04:32Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- kz.beeline.test.testcases.RegistrationTest -->
+    </test> <!-- Registration FirefoxTest -->
+  </suite> <!-- Beeline.kz suite 1 -->
 </testng-results>

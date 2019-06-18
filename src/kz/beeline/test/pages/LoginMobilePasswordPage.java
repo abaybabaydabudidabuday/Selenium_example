@@ -1,11 +1,15 @@
 package kz.beeline.test.pages;
 
+import kz.beeline.test.interfaces.IPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
-public class LoginMobilePasswordPage {
+import static kz.beeline.test.utilities.URLConst.LOGIN_MOBILE_PASSWORD_PAGE_EXPECTED_URL;
+
+public class LoginMobilePasswordPage implements IPage {
 
     private WebDriver driver;
     @FindBy(css="input#Login")
@@ -26,6 +30,10 @@ public class LoginMobilePasswordPage {
 
     public void clickSendingPasswordBtn(){
         submitBtn.click();
+    }
+    @Override
+    public void verifyPage(){
+        Assert.assertEquals(driver.getCurrentUrl(),LOGIN_MOBILE_PASSWORD_PAGE_EXPECTED_URL);
     }
 
 

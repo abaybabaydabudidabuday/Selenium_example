@@ -22,6 +22,6 @@ public class JavaUtilResources {
 
     public static String getProperties(String property){
         loadProperties();
-        return properties.getProperty(property).toString();
+        return properties.getProperty(property);
     }
 }

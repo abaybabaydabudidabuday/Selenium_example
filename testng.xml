@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="example suite 1" verbose="1" >
-    <test name="Regression suite 1" >
+<suite name="Beeline.kz suite 1" thread-count="3" parallel="tests" verbose="1" >
+    <listeners>
+        <listener class-name="kz.beeline.test.listeners.TestListenerImpl"/>
+    </listeners>
+    <test name="Registration ChromeTest" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="kz.beeline.test.testcases.RegistrationTest"/>
+        </classes>
+    </test>
+    <test name="Registration FirefoxTest" >
+        <parameter name="browser" value="Firefox"/>
         <classes>
             <class name="kz.beeline.test.testcases.RegistrationTest"/>
         </classes>

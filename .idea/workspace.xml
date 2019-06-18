@@ -2,24 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6156c29b-1af4-4561-87bd-8cea43525283" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/kz/beeline/test/dataproviders/TestDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kz/beeline/test/interfaces/IPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kz/beeline/test/listeners/TestListenerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kz/beeline/test/utilities/BrowsersConst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hehe/kz/beeline/test/dataproviders/TestDataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hehe/kz/beeline/test/dataproviders/TestDataProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hehe/kz/beeline/test/interfaces/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hehe/kz/beeline/test/interfaces/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hehe/kz/beeline/test/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hehe/kz/beeline/test/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hehe/kz/beeline/test/pages/LoginMobilePasswordPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hehe/kz/beeline/test/pages/LoginMobilePasswordPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hehe/kz/beeline/test/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hehe/kz/beeline/test/pages/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/hehe/kz/beeline/test/testcases/RegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hehe/kz/beeline/test/testcases/RegistrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hehe/kz/beeline/test/utilities/JavaUtilResources.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hehe/kz/beeline/test/utilities/JavaUtilResources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kz/beeline/test/dataproviders/TestDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/beeline/test/dataproviders/TestDataProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kz/beeline/test/interfaces/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/beeline/test/interfaces/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kz/beeline/test/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/beeline/test/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kz/beeline/test/pages/LoginMobilePasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/beeline/test/pages/LoginMobilePasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kz/beeline/test/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/beeline/test/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kz/beeline/test/testcases/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/beeline/test/testcases/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kz/beeline/test/utilities/JavaUtilResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/beeline/test/utilities/JavaUtilResources.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/example suite 1/Regression suite 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/example suite 1/Regression suite 1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/example suite 1/Regression suite 1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/example suite 1/Regression suite 1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/example suite 1/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/example suite 1/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-kz.beeline.test.testcases.RegistrationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-kz.beeline.test.testcases.RegistrationTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/example suite 1/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/example suite 1/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/example suite 1/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/example suite 1/groups.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/example suite 1/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/example suite 1/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/example suite 1/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/example suite 1/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/example suite 1/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/example suite 1/toc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,13 +48,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/pages/LoginMobilePasswordPage.java">
+        <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/interfaces/IPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -48,20 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/dataproviders/TestDataProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BrokenLinks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+            <state relative-caret-position="135">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +71,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="457">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#930#931#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/testcases/RegistrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/listeners/TestListenerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="81" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,43 +109,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/testcases/RegistrationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/utilities/URLConst.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="66" lean-forward="true" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/utilities/JavaUtilResources.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -126,20 +120,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/interfaces/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+            <state relative-caret-position="225">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -150,6 +135,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -165,24 +151,28 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/HomePage.java" />
         <option value="$PROJECT_DIR$/src/kz/beeline/test/RegistrationTest.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/kz/beeline/test/utilities/UtilResources.kt" />
         <option value="$PROJECT_DIR$/src/resources/config.properties" />
-        <option value="$PROJECT_DIR$/src/kz/beeline/test/utilities/JavaUtilResources.java" />
-        <option value="$PROJECT_DIR$/src/kz/beeline/test/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/kz/beeline/test/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/kz/beeline/test/utilities/URLConst.java" />
-        <option value="$PROJECT_DIR$/src/kz/beeline/test/pages/LoginMobilePasswordPage.java" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/utilities/JavaUtilResources.java" />
         <option value="$PROJECT_DIR$/src/kz/beeline/test/dataproviders/TestDataProvider.java" />
-        <option value="$PROJECT_DIR$/src/kz/beeline/test/interfaces/TestBase.java" />
-        <option value="$PROJECT_DIR$/config.properties" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/interfaces/IPage.java" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/pages/LoginMobilePasswordPage.java" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/kz/beeline/test/testcases/RegistrationTest.java" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/listeners/TestListenerImpl.java" />
+        <option value="$PROJECT_DIR$/config.properties" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/interfaces/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/utilities/BrowsersNameConst.java" />
+        <option value="$PROJECT_DIR$/src/kz/beeline/test/utilities/BrowsersConst.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="60" />
-    <option name="y" value="36" />
+    <option name="x" value="141" />
+    <option name="y" value="153" />
     <option name="width" value="1161" />
     <option name="height" value="573" />
   </component>
@@ -192,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -217,7 +206,21 @@
               <item name="hehe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="dataproviders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hehe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hehe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hehe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hehe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="listeners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hehe" type="b2602c69:ProjectViewProjectNode" />
@@ -240,10 +243,16 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hehe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hehe" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -371,50 +380,52 @@
       <workItem from="1560767548395" duration="3080000" />
       <workItem from="1560772619518" duration="1101000" />
       <workItem from="1560826766827" duration="1030000" />
-      <workItem from="1560828500008" duration="2847000" />
+      <workItem from="1560828500008" duration="5842000" />
+      <workItem from="1560837054236" duration="331000" />
+      <workItem from="1560841017950" duration="4057000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.17 at 16h 53m 07s.xml">
-      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.17 at 17h 58m 19s.xml">
-      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.17 at 18h 01m 23s.xml">
-      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.17 at 18h 04m 12s.xml">
-      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.17 at 18h 06m 17s.xml">
-      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.18 at 09h 32m 10s.xml">
-      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.18 at 09h 34m 06s.xml">
-      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.18 at 09h 38m 38s.xml">
-      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.18 at 09h 42m 56s.xml">
-      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.18 at 09h 44m 37s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.18 at 11h 00m 55s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.18 at 11h 54m 23s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.18 at 12h 58m 38s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.18 at 13h 01m 33s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.18 at 13h 28m 31s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.18 at 13h 33m 08s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.18 at 13h 36m 21s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.18 at 13h 43m 21s.xml">
+      <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yerkhat96_IdeaProjects_hehe_testng_xml - 2019.06.18 at 14h 04m 35s.xml">
       <configuration name="/home/yerkhat96/IdeaProjects/hehe/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28120000" />
+    <option name="totallyTimeSpent" value="35503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3415802" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28092578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -423,7 +434,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.08143322" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42508143" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,9 +442,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36970684" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.36970684" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -445,6 +456,38 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.329148" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39730942" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.067567565" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.36970684" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.329148" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -480,10 +523,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/pages/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/BrokenLinks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="23" />
+        <state relative-caret-position="450">
+          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -492,28 +535,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/pages/LoginMobilePasswordPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="405">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BrokenLinks.java">
+    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/dataproviders/TestDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="135">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -522,15 +557,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/utilities/URLConst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/dataproviders/TestDataProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/interfaces/IPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/testcases/RegistrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/listeners/TestListenerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="81" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -539,25 +615,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="70" />
+        <state relative-caret-position="180">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/interfaces/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/utilities/BrowsersConst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/utilities/JavaUtilResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/utilities/JavaUtilResources.java">
+    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/interfaces/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        <state relative-caret-position="225">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -566,18 +649,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="66" lean-forward="true" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kz/beeline/test/testcases/RegistrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
         </state>
       </provider>
     </entry>

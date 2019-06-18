@@ -7,20 +7,20 @@ public class TestDataProvider {
 
 
     @DataProvider(name="LoginDataProvider")
-    public static Object[][] getDataFromDataProvider(ITestContext context){
+    public static Object[][] getDataFromDataProvider(){
         Object[][] groupArray = null;
-        for (String group : context.getIncludedGroups()) {
-            if (group.equalsIgnoreCase("logintests")) {
+//        for (String group : context.getIncludedGroups()) {
+//            if (group.equalsIgnoreCase("logintests")) {
                 groupArray = new Object[][]{
                         {"87086441271", "India"},
                         {"ibrayevabay1@gmail.com", "UK"},
                         {"abay_babay", "USA"}
                 };
-                break;
-            }else{
-                System.out.println("Not provided yet");
-            }
-        }
+//                break;
+//            }else{
+//                System.out.println("Not provided yet");
+//            }
+//        }
         return groupArray;
     }
 
